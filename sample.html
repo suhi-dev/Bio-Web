@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image with Information</title>
+<style>
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  .image {
+    flex: 0 0 auto; /* Prevent image from stretching */
+    margin-right: 20px; /* Adjust spacing between image and text */
+  }
+  .info {
+    flex: 1; /* Allow information to take up remaining space */
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="image">
+    <img src="csk.jpg" alt="Description of Image">
+  </div>
+  <div class="info">
+    <h2>Information Title</h2>
+    <p>This is some information about the image. You can add as much text here as needed to describe the image.</p>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+.back{
+    background-color: rgb(243, 217, 182);
+}
+.text{
+text-align: center;
+}
+.photo-container {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; /* Ensure the container takes up the full width of its parent */
+
+
+}
+
+.photo-container img {
+    flex: 1; 
+    max-width: 25%; 
+    height: auto;
+    cursor: pointer;
+    
+}
+    
+.info-container{
+    background-color:white;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    margin-left: 200px;
+    margin-right: 150px;
+    height: 450px;
+}
+.image{
+    flex:auto;
+    margin-right: 20px;
+}
+    
+.photo-container1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.info{
+    text-align: center;
+}
+.info1-container{
+    background-color:white;
+    margin-top: -250px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 150px;
+    height: 525px;
+}
+.info1{
+    text-align: center;
+}
+.info-container3 {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: left; /* Optional: Align items vertically */
+}
+
+.info-container3 a {
+    text-decoration: none;
+}
